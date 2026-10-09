@@ -407,8 +407,9 @@ fig, axes = plt.subplots(3, 1, figsize=(14, 12), sharex=False)
 
 for ax, (nome_plano, dados) in zip(axes, PLANOS.items()):
     L = dados["L"]
-    V1, V3 = dados["V1"], dados["V3"]
+    V1 = dados["V1"]
     V2 = dados.get("V2")
+    V3 = dados.get("V3", V2)
 
     # Perfil do terreno
     if V2:
@@ -441,7 +442,7 @@ for ax, (nome_plano, dados) in zip(axes, PLANOS.items()):
             label="Terreno natural", zorder=3)
 
     # Crown
-    ax.plot(d_fino, c_crown_fino, color=PAL["A"], lw=2.8,
+    ax.plot(d_fino, c_crow_fino, color=PAL["A"], lw=2.8,
             label="Geratriz superior do tubo (crown)", zorder=4)
 
     # Vértices
