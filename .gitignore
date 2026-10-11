@@ -1,22 +1,33 @@
-venv/
-env/
-.venv/
+# Python
 __pycache__/
 *.py[cod]
-*.egg-info/
-.pytest_cache/
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs
 .vscode/
 .idea/
 *.swp
-Thumbs.db
+*.swo
+
+# Sistema
 .DS_Store
-output/
-output_v2/
-output_v3/
-*.png
-*.html
-*.csv
-*.xlsx
-.kaleido/
+Thumbs.db
+desktop.ini
+
+# Temporários
+*.log
 *.tmp
-~$*
+*.bak
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados pesados
+*.zip
+*.tar.gz

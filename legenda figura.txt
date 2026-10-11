@@ -1,0 +1,129 @@
+LISTA COMPLETA DAS FIGURAS GERADAS
+📁 Pasta output/ — Script principal (modelagem_qualufmg.py)
+9 PNGs + 3 HTMLs interativos + 3 tabelas
+
+#	Arquivo	Tipo	Onde usar no relatório
+1	fig_01_autodepuracao.png	PNG	Seção 8.8.1 — Perfil de OD e curva de autodepuração
+2	fig_02_DBO5.png	PNG	Seção 8.8.1 — Decaimento de DBO₅
+3	fig_03_nitrogenio.png	PNG	Seção 8.8.2 — Ciclo do nitrogênio (4 painéis)
+4	fig_04_fosforo.png	PNG	Seção 8.8.2 — Ciclo do fósforo
+5	fig_05_coliformes.png	PNG	Seção 8.8.2 — Decaimento de coliformes
+6	fig_06_painel_comparativo.png	PNG	Seção 8.8.3 — Painel comparativo (6 parâmetros)
+7	fig_07_zona_mistura.png	PNG	Seção 8.9.4 — Zona de mistura em planta (Figura 8.3)
+8	fig_08_secoes_transversais.png	PNG	Seção 8.9.4 — Seções transversais da pluma
+9	fig_09_dashboard.png	PNG	Seção 8.11 — Dashboard resumo
+10	interativo_01_OD.html	HTML	Anexo eletrônico (versão interativa da fig 1)
+11	interativo_02_painel.html	HTML	Anexo eletrônico (versão interativa da fig 6)
+12	interativo_03_zona_mistura.html	HTML	Anexo eletrônico (versão interativa da fig 7)
+13	resultados_cenario_A.csv	CSV	Anexo — Dados brutos do Cenário A
+14	resultados_cenario_B.csv	CSV	Anexo — Dados brutos do Cenário B
+15	resultados_qualufmg.xlsx	XLSX	Anexo — Resultados consolidados
+📁 Pasta output_v3/ — Script perfil do rio (modelagem_perfil_rio.py)
+3 PNGs
+
+#	Arquivo	Tipo	Onde usar no relatório
+16	fig_v3_A_perfil_longitudinal.png	PNG	Seção 7.2 ou 8.3 — Perfil longitudinal do rio com pluma
+17	fig_v3_B_rio_isometrico.png	PNG	Seção 8.8 — Vista isométrica 3D do rio (a mais visual)
+18	fig_v3_C_heatmap_longitudinal.png	PNG	Seção 8.9 — Mapa de calor longitudinal (concentração × profundidade)
+📁 Pasta output_extras/ — Script figuras avançadas (modelagem_figuras_avancadas.py)
+7 PNGs + 2 HTMLs
+
+#	Arquivo	Tipo	Onde usar no relatório
+19	fig_x01_semaforo_conformidade.png	PNG	Seção 10.4.1 — Semáforo de conformidade (matriz)
+20	fig_x02_balanco_cargas.png	PNG	Seção 10.2.2 — Balanço de cargas (rio × efluente)
+21	fig_x03_conformidade_rio.png	PNG	Seção 10.4.1 — Conformidade ao longo do rio
+22	fig_x04_perfil_emissario.png	PNG	Seção 9.4.5 ou 9.5 — Perfil longitudinal do emissário (3 painéis)
+23	fig_x05_zona_mistura_3d.png	PNG	Seção 8.9 — Zona de mistura 3D (estática)
+24	fig_x06_zona_mistura_3d_interativo.html	HTML	Anexo eletrônico — Zona de mistura 3D interativa
+25	fig_x07_comparacao_solucoes.png	PNG	Seção 9.7 — Comparação de soluções (aterro × bombeamento)
+26	fig_x08_pluviometria.png	PNG	Seção 2.4.1 — Regime pluviométrico mensal (Gráfico 2.1)
+27	fig_x09_sankey_cargas.html	HTML	Anexo eletrônico — Sankey interativo das cargas
+📊 RESUMO GERAL
+Categoria	Quantidade
+PNGs estáticos	19
+HTMLs interativos	5
+Tabelas CSV/XLSX	3
+TOTAL DE ARQUIVOS	27
+🗺️ MAPA POR CAPÍTULO DO RELATÓRIO
+Capítulo 2 — Caracterização da Área
+Fig 2.X: fig_x08_pluviometria.png (regime pluviométrico mensal)
+
+Capítulo 7 — Dados de Campo
+Fig 7.X: fig_v3_A_perfil_longitudinal.png (perfil do rio)
+
+Capítulo 8 — Modelagem QUAL-UFMG
+Fig 8.1: fig_01_autodepuracao.png (OD + déficit)
+
+Fig 8.2: fig_02_DBO5.png (DBO₅)
+
+Fig 8.3: fig_03_nitrogenio.png (nitrogênio)
+
+Fig 8.4: fig_04_fosforo.png (fósforo)
+
+Fig 8.5: fig_05_coliformes.png (coliformes)
+
+Fig 8.6: fig_06_painel_comparativo.png (painel comparativo)
+
+Fig 8.7: fig_07_zona_mistura.png (zona de mistura em planta)
+
+Fig 8.8: fig_08_secoes_transversais.png (seções transversais)
+
+Fig 8.9: fig_v3_B_rio_isometrico.png (vista isométrica 3D) 🆕
+
+Fig 8.10: fig_v3_C_heatmap_longitudinal.png (heatmap) 🆕
+
+Fig 8.11: fig_x05_zona_mistura_3d.png (zona 3D estática) 🆕
+
+Fig 8.12: fig_09_dashboard.png (dashboard resumo)
+
+Capítulo 9 — Estudo de Concepção do Emissário
+Fig 9.1: fig_x04_perfil_emissario.png (perfil longitudinal do emissário) 🆕
+
+Fig 9.2: fig_x07_comparacao_solucoes.png (comparação de soluções) 🆕
+
+Capítulo 10 — Análise Integrada
+Fig 10.1: fig_x01_semaforo_conformidade.png (semáforo) 🆕
+
+Fig 10.2: fig_x02_balanco_cargas.png (balanço de cargas) 🆕
+
+Fig 10.3: fig_x03_conformidade_rio.png (conformidade ao longo do rio) 🆕
+
+Anexo Eletrônico (HTMLs)
+interativo_01_OD.html — OD interativo
+
+interativo_02_painel.html — Painel comparativo interativo
+
+interativo_03_zona_mistura.html — Zona de mistura interativa
+
+fig_x06_zona_mistura_3d_interativo.html — Zona 3D interativa 🆕
+
+fig_x09_sankey_cargas.html — Sankey de cargas 🆕
+
+(🆕 = figuras novas geradas pelo script avançado)
+
+📝 SUGESTÕES DE NOMENCLATURA FINAL PARA O RELATÓRIO
+Se quiser padronizar os nomes das figuras no relatório (em vez de usar fig_x01, fig_v3_A, etc.), sugiro renomear para:
+
+Nome atual	Nome sugerido
+fig_01_autodepuracao.png	Figura_08_01_Autodepuracao_OD.png
+fig_02_DBO5.png	Figura_08_02_DBO5.png
+fig_03_nitrogenio.png	Figura_08_03_Nitrogenio.png
+fig_04_fosforo.png	Figura_08_04_Fosforo.png
+fig_05_coliformes.png	Figura_08_05_Coliformes.png
+fig_06_painel_comparativo.png	Figura_08_06_Painel_Comparativo.png
+fig_07_zona_mistura.png	Figura_08_07_Zona_Mistura_Planta.png
+fig_08_secoes_transversais.png	Figura_08_08_Secoes_Transversais.png
+fig_v3_B_rio_isometrico.png	Figura_08_09_Rio_Isometrico_3D.png
+fig_v3_C_heatmap_longitudinal.png	Figura_08_10_Heatmap_Longitudinal.png
+fig_x05_zona_mistura_3d.png	Figura_08_11_Zona_Mistura_3D.png
+fig_09_dashboard.png	Figura_08_12_Dashboard.png
+fig_x04_perfil_emissario.png	Figura_09_01_Perfil_Emissario.png
+fig_x07_comparacao_solucoes.png	Figura_09_02_Comparacao_Solucoes.png
+fig_x01_semaforo_conformidade.png	Figura_10_01_Semaforo_Conformidade.png
+fig_x02_balanco_cargas.png	Figura_10_02_Balanco_Cargas.png
+fig_x03_conformidade_rio.png	Figura_10_03_Conformidade_Rio.png
+fig_x08_pluviometria.png	Figura_02_01_Pluviometria.png
+fig_v3_A_perfil_longitudinal.png	Figura_07_01_Perfil_Longitudinal_Rio.png
+(Faça essa renomeação apenas no relatório final — o GitHub mantém os nomes originais do código para não quebrar a reprodutibilidade.)
+
+✅ PRÓXIMOS PASSOS

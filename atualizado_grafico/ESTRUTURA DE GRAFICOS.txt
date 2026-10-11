@@ -1,0 +1,110 @@
+ESTRUTURA DE PASTAS (o que foi criado)
+text
+qualufmg-aracatuba-imbituba/
+├── atualizado_grafico/
+│   ├── gerar_todas_figuras.py
+│   ├── zona_mistura_avancada.py
+│   ├── perfil_rio_pluma.py
+│   │
+│   ├── output_capitulo7/          ← 5 PNGs (Cap 7)
+│   ├── output_capitulo8/          ← 8 PNGs (Cap 8)
+│   ├── output_capitulo9/          ← 5 PNGs (Cap 9)
+│   ├── output_capitulo10/         ← 4 PNGs (Cap 10)
+│   ├── output_anexo_A2/           ← 6 PNGs (Anexo A2)
+│   ├── output_zona_mistura/       ← 5 PNGs + 1 HTML (Cap 8.9)
+│   └── output_perfil_rio/         ← 4 PNGs (Cap 8.9 extra)
+│
+├── dados/
+│   └── parametros_capitulo8.py
+└── venv/
+TOTAL: 37 PNGs + 1 HTML = 38 arquivos
+
+📖 PARTE 1 — LISTA DETALHADA POR CAPÍTULO
+📘 CAPÍTULO 7 — Batimetria, Morfometria e Hidráulica
+Pasta: output_capitulo7/ (5 arquivos)
+
+#	Arquivo PNG	Descrição	Onde colar no relatório
+1	fig_7_1_perfil_longitudinal_leito.png	Perfil do leito do rio em corte (leito + coluna d'água + terreno)	Seção 7.2.4 — substitui o texto [Inserir o gráfico gerado pelo script perfil_leito.py]
+2	fig_7_2_secoes_transversais.png	5 seções transversais (M2, M1, P0, J1, J2) — profundidades	Seção 7.2.2 — logo APÓS a Tabela 7.2A
+3	fig_7_3_largura_total_efetiva.png	Barras comparando largura total × efetiva (redução por vegetação)	Seção 7.2.5 — logo APÓS a Tabela 7.2D
+4	fig_7_4_velocidades.png	V superficial × V média (método flutuador)	Seção 7.3.3 — logo APÓS a Tabela 7.3C
+5	fig_7_5_areas_vazoes.png	Área molhada + Vazão por seção (2 painéis)	Seção 7.3.5 — logo APÓS a Tabela 7.3E
+📙 CAPÍTULO 8 — Modelagem QUAL-UFMG
+Pasta: output_capitulo8/ (8 arquivos)
+
+#	Arquivo PNG	Descrição	Onde colar no relatório
+1	fig_8_1_OD.png	Perfil de Oxigênio Dissolvido (Cenários A e B)	Seção 8.8.1.3 — logo APÓS a Tabela 8.13
+2	fig_8_2_DBO5.png	Perfil de DBO₅	Seção 8.8.2.3 — logo APÓS a Tabela 8.15
+3	fig_8_3_NH3.png	Perfil de N-amoniacal	Seção 8.8.3 (síntese)
+4	fig_8_4_NO3.png	Perfil de N-nitrato	Seção 8.8.3
+5	fig_8_5_Ptotal.png	Perfil de Fósforo total	Seção 8.8.3
+6	fig_8_6_coliformes.png	Perfil de Coliformes (escala log)	Seção 8.8.3
+7	fig_8_7_painel_consolidado.png	Painel 3×2 com todos os parâmetros	Seção 8.11 (síntese final)
+8	fig_8_8_pluma_3d_Ptotal.png	PLUMA 3D de dispersão do fósforo	Seção 8.9.3 (abordagem metodológica)
+📕 CAPÍTULO 9 — Concepção do Emissário
+Pasta: output_capitulo9/ (5 arquivos)
+
+#	Arquivo PNG	Descrição	Onde colar no relatório
+1	fig_9_1_perfil_emissario_3_planos.png	Perfil longitudinal dos 3 traçados (A, B, C)	Seção 9.4.5 — logo APÓS a Tabela 9.8
+2	fig_9_2_comparacao_diametros.png	Velocidade + Perda de carga por DN	Seção 9.3.1 — logo APÓS a Tabela 9.4
+3	fig_9_3_comparacao_solucoes.png	Custos das 6 soluções (aterro × bombeamento)	Seção 9.7.2 — logo APÓS a Tabela 9.20
+4	fig_9_4_perdas_carga_solucoes.png	Perda de carga total por solução	Seção 9.6.5
+5	fig_9_5_isometrico_3d.png	Vista isométrica 3D dos 3 traçados	Seção 9.4.5 (complemento)
+📗 CAPÍTULO 10 — Análise Integrada
+Pasta: output_capitulo10/ (4 arquivos)
+
+#	Arquivo PNG	Descrição	Onde colar no relatório
+1	fig_10_1_semaforo_conformidade.png	Semáforo verde/vermelho por parâmetro × ponto	Seção 10.4.1 — logo APÓS a Tabela 10.8
+2	fig_10_2_balanco_cargas.png	Balanço de cargas Rio × Efluente (3 painéis)	Seção 10.2.2 — logo APÓS a Tabela 10.6
+3	fig_10_3_conformidade_rio.png	Conformidade % ao longo do rio	Seção 10.1 (introdução)
+4	fig_10_4_pluviometria.png	Pluviometria comparativa (medido × histórico)	Seção 2.4 — logo APÓS a Tabela 2.4
+📓 ANEXO A2 — Simulação Estendida
+Pasta: output_anexo_A2/ (6 arquivos)
+
+#	Arquivo PNG	Marcador no texto	Substituir
+1	fig_anexo_I_OD_1500m.png	Seção I.1	[Inserir figura fig_anexo_I_OD_1500m.png]
+2	fig_anexo_I_DBO5_1500m.png	Seção I.2	[Inserir figura fig_anexo_I_DBO5_1500m.png]
+3	fig_anexo_I_NH3_1500m.png	Seção I.3	[Inserir figura fig_anexo_I_NH3_1500m.png]
+4	fig_anexo_I_NO3_1500m.png	Seção I.4	[Inserir figura fig_anexo_I_NO3_1500m.png]
+5	fig_anexo_I_Ptotal_1500m.png	Seção I.5	[Inserir figura fig_anexo_I_Ptotal_1500m.png]
+6	fig_anexo_I_coliformes_1500m.png	Seção I.6	[Inserir figura fig_anexo_I_coliformes_1500m.png]
+🌊 ZONA DE MISTURA — Complementar
+Pasta: output_zona_mistura/ (5 PNGs + 1 HTML)
+
+#	Arquivo	Descrição	Onde colar
+1	fig_ZM_1_pluma_3d.png	Pluma 3D do P-total com superfície colorida	Seção 8.9.4 — Figura 8.3 (substitui/ complementa)
+2	fig_ZM_2_planta.png	Vista de topo — heatmap da pluma	Seção 8.9.4 — complementa Mapa QGIS
+3	fig_ZM_3_cortes_transversais.png	6 cortes a 0, 50, 100, 200, 300, 500 m	Seção 8.9.2
+4	fig_ZM_4_painel_comparativo.png	3 plumas: DBO₅, N-NH₃, P-total	Seção 8.10.1 (Item 11a)
+5	fig_ZM_5_envelope_conformidade.png	Envelope com zona de mistura	Seção 8.9.2 (delimitação)
+6	fig_ZM_6_interativo.html	HTML interativo (abre no navegador)	Anexo digital (pendrive / GitHub)
+🎬 PERFIL DO RIO — Pluma cinematográfica
+Pasta: output_perfil_rio/ (4 arquivos)
+
+#	Arquivo	Descrição	Onde colar
+1	fig_RP_1_perfil_pluma.png	Perfil do rio com pluma colorida — leito, água e mistura	Seção 8.9 — Figura principal
+2	fig_RP_2_planta_e_perfil.png	Vista planta + perfil combinados	Seção 8.9.4
+3	fig_RP_3_dispersao_3d.png	Nuvem 3D volumétrica da pluma	Seção 8.8 (resultados)
+4	fig_RP_4_isoconcentracoes.png	Iso-concentrações múltiplas	Seção 8.10.1
+🎯 PARTE 2 — MAPA VISUAL DE ONDE CADA FIGURA VAI
+📄 RESUMO EXECUTIVO — ONDE COLOCAR (por capítulo)
+Capítulo	Pasta	Qtd. figuras	Seções do relatório
+Cap 2	(QGIS) + output_capitulo10/fig_10_4	1	2.4
+Cap 5	(fluxograma próprio)	1	5.1
+Cap 6	(QGIS)	3	6.2
+Cap 7	output_capitulo7	5	7.2.2, 7.2.4, 7.2.5, 7.3.3, 7.3.5
+Cap 8	output_capitulo8 + output_zona_mistura + output_perfil_rio	8 + 6 + 4 = 18	8.8, 8.9, 8.10, 8.11
+Cap 9	output_capitulo9	5	9.3.1, 9.4.5, 9.6.5, 9.7.2
+Cap 10	output_capitulo10	4	2.4, 10.1, 10.2.2, 10.4.1
+Anexo A2	output_anexo_A2	6	I.1 a I.6
+TOTAL Python	—	38	—
+📝 MODELO DE LEGENDA PADRÃO
+Para cada figura que você inserir, use este formato:
+
+text
+[COLAR A IMAGEM AQUI]
+
+Figura X.Y — Título descritivo da figura
+
+Fonte: Elaborado pela autora (2026), com base em [dado/fonte].
+
