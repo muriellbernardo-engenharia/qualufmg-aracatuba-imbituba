@@ -1,33 +1,8 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-venv/
-env/
-ENV/
-.venv/
-
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Sistema
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Temporários
-*.log
-*.tmp
-*.bak
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Dados pesados
-*.zip
-*.tar.gz
+diagnostico_perfil.png 
+diagnostico_v3.png 
+perfil_rio_2km.csv 
+perfil_rio_2km_limpo.csv 
+perfil_rio_2km_v3.csv 
+__pycache__/ 
+*.pyc 
+*.csv 
